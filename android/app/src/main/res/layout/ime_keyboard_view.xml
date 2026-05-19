@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DCE4EF"
+    android:orientation="vertical"
+    android:paddingStart="6dp"
+    android:paddingTop="6dp"
+    android:paddingEnd="6dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:id="@+id/row_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/key_1" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="1" />
+        <Button android:id="@+id/key_2" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="2" />
+        <Button android:id="@+id/key_3" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="3" />
+        <Button android:id="@+id/key_4" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="4" />
+        <Button android:id="@+id/key_5" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="5" />
+        <Button android:id="@+id/key_6" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="6" />
+        <Button android:id="@+id/key_7" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="7" />
+        <Button android:id="@+id/key_8" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="8" />
+        <Button android:id="@+id/key_9" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="9" />
+        <Button android:id="@+id/key_0" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/key_q" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="q" />
+        <Button android:id="@+id/key_w" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="w" />
+        <Button android:id="@+id/key_e" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="e" />
+        <Button android:id="@+id/key_r" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="r" />
+        <Button android:id="@+id/key_t" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="t" />
+        <Button android:id="@+id/key_y" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="y" />
+        <Button android:id="@+id/key_u" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="u" />
+        <Button android:id="@+id/key_i" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="i" />
+        <Button android:id="@+id/key_o" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="o" />
+        <Button android:id="@+id/key_p" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="p" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <Button android:id="@+id/key_a" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="a" />
+        <Button android:id="@+id/key_s" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="s" />
+        <Button android:id="@+id/key_d" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="d" />
+        <Button android:id="@+id/key_f" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="f" />
+        <Button android:id="@+id/key_g" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="g" />
+        <Button android:id="@+id/key_h" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="h" />
+        <Button android:id="@+id/key_j" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="j" />
+        <Button android:id="@+id/key_k" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="k" />
+        <Button android:id="@+id/key_l" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="l" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/key_shift"
+            style="@style/ImeSpecialKeyStyle"
+            android:layout_weight="1.4"
+            android:text="⇧" />
+
+        <Button android:id="@+id/key_z" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="z" />
+        <Button android:id="@+id/key_x" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="x" />
+        <Button android:id="@+id/key_c" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="c" />
+        <Button android:id="@+id/key_v" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="v" />
+        <Button android:id="@+id/key_b" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="b" />
+        <Button android:id="@+id/key_n" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="n" />
+        <Button android:id="@+id/key_m" style="@style/ImeKeyStyle" android:layout_weight="1" android:text="m" />
+
+        <Button
+            android:id="@+id/key_backspace"
+            style="@style/ImeSpecialKeyStyle"
+            android:layout_weight="1.4"
+            android:text="⌫" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/key_emoji"
+            style="@style/ImeSpecialKeyStyle"
+            android:layout_weight="1.2"
+            android:text="😊" />
+
+        <Button
+            android:id="@+id/key_language"
+            style="@style/ImeSpecialKeyStyle"
+            android:layout_weight="1.2"
+            android:text="EN" />
+
+        <Button
+            android:id="@+id/key_space"
+            style="@style/ImeSpaceKeyStyle"
+            android:layout_weight="4.6"
+            android:text="@string/key_space" />
+
+        <Button
+            android:id="@+id/key_dot"
+            style="@style/ImeKeyStyle"
+            android:layout_weight="1.2"
+            android:text="." />
+
+        <Button
+            android:id="@+id/key_enter"
+            style="@style/ImeSpecialKeyStyle"
+            android:layout_weight="1.6"
+            android:text="↵" />
+    </LinearLayout>
+</LinearLayout>
